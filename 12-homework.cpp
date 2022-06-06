@@ -8,14 +8,14 @@ int main() {
   double fahrenheit;
 
   cout << "Enter the start and the end of the range: ";
-	cin >> startRange;
+  cin >> startRange;
   cin >> endRange;
 
-	while (startRange <= endRange) {
-		fahrenheit = (startRange * 1.8) + 32;
-		cout << fahrenheit << "\n";
-		startRange++;
-	}
+  while (startRange <= endRange) {
+	  fahrenheit = (startRange * 1.8) + 32;
+	  cout << fahrenheit << "\n";
+	  startRange++;
+  }
 
   // 2)
   int number;
@@ -35,15 +35,15 @@ int main() {
 
   // 3)
   int number;
-	int indexNumber = 1;
+  int indexNumber = 1;
 
-	cout << "Enter the number: ";
-	cin >> number;
+  cout << "Enter the number: ";
+  cin >> number;
 
-	while (indexNumber <= number) {
-		if (number % indexNumber == 0) {
-			cout << indexNumber << "\n";
-		}
-		indexNumber++;
-	}
+  while (indexNumber <= number) {
+    if (number % indexNumber == 0) {
+      cout << indexNumber << "\n";
+    }
+    indexNumber++;
+  }
 }

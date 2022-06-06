@@ -5,9 +5,9 @@ int main() {
   // 1)
   int startRange;
   int endRange;
-	double fahrenheit;
+  double fahrenheit;
 
-	cout << "Enter the start and the end of the range: ";
+  cout << "Enter the start and the end of the range: ";
 	cin >> startRange;
   cin >> endRange;
 

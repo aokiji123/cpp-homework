@@ -22,7 +22,7 @@ int main() {
   int discharge;
   int reversedNumber;
 
-  cout << "Enter a number that should be reversed: ";
+  cout << "Enter the number that should be reversed: ";
   cin >> number;
 
   while (number != 0) {

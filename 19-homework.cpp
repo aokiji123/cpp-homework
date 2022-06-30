@@ -53,7 +53,7 @@ int main()
   int numbers[size] = {1, 5, -3, 6, 0, 0, 2, -6, -5, 2, 5, 0, 6, 5, 9, -5, 7, 0, -1, 3};
   int numbersNew[size] = {}, index = 0;
 
-  cout << "\n";
+  cout << "\n1) ";
   for (int i = 0; i < size; i++)
     cout << numbers[i] << " "; // array output
   cout << "\n";
@@ -81,6 +81,7 @@ int main()
       index++;
     }
   }
+  cout << "2) ";
   for (int i = 0; i < size; i++)
     cout << numbersNew[i] << " "; // new array output
   cout << "\n\n";

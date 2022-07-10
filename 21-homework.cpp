@@ -43,28 +43,24 @@ int main()
   cout << "\n";
   for (int i = 0; i < M; i++)
   {
-
     for (int j = 0; j < N; j++)
     {
-
       if (array[i][j] == 0)
       {
         counter++;
-
         if (counter == k)
         {
-          cout << "Место свободно"
+          cout << "You can buy tickets"
                << "\n";
         }
       }
       else
       {
         counter = 0;
-        cout << "Место занято"
+        cout << "You can't buy tickets"
              << "\n";
       }
     }
-    counter = 0;
     cout << "\n";
   }
 }

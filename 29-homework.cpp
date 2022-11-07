@@ -63,6 +63,15 @@ struct Pen
 // 5)
 struct Flat
 {
+  string owner;
+  string city;
+  int floor;
+  int number;
+  int roomsVolume;
+  int roomsSquare;
+  int howManyRooms;
+  bool isItBeautiful;
+  Date leaseStart;
 };
 
 int main()
